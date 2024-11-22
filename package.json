@@ -1,0 +1,11 @@
+{
+  "name": "sanskar-thapa-evaluation-eventlist",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
