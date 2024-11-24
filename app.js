@@ -5,9 +5,7 @@ const EventAPI = (() => {
 
         // GET
         const response = await fetch(API_URL);
-
         const eventItem = await response.json();
-        console.log(eventItem);
         return eventItem;
     }
 

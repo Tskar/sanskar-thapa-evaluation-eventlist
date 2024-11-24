@@ -6,34 +6,99 @@
     height: 100%;
 }
 
+input {
+    border: none;
+    height: 1.4rem;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
 .add-event{
     border: none;
     background-color: #008cba;
     color: white;
     box-shadow: .5px .5px 2px black;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: .5rem;
     margin: 1rem 0;
 }
 
+.console{
+    border: solid 5px #e6e2d3;
+    border-radius: 10px;
+}
+
 .event-table {
-    border: solid 4px #e6e2d3;
-    border-radius: 5px;
+    border-left: solid 10px white;
+    border-right: solid 10px white;
+    border-bottom: solid 5px white;
     min-width: 50rem;
+    border-collapse: separate; 
+    border-spacing: 0 5px;
+}
 
-    .table-head{
-        background-color: white;
-    }
+.event-table tbody tr {
+    background-color: #e6e2d3;
+}
 
-    tr{
-        background-color: #e6e2d3;
-        text-align: center;
-    }
-    
-    td{
-        padding: .8rem 0;
-        align-items: center;
+.event-table tbody td {
+    padding: 0.8rem 0;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
 
-    }
+.edit-button{
+    height: 2rem;
+    width: 2rem;
+    background-color: #008cba;
+    color: #f0f0f0;
+    margin-right: .5rem;
+    border: none;
+    box-shadow: .5px .5px 2px black;
+
+}
+
+.delete-button{
+    height: 2rem;
+    width: 2rem;
+    background-color: #c94c4c;
+    color: #f0f0f0;
+    border: none;
+    box-shadow: .5px .5px 2px black;
+
+}
+
+.save-button {
+    height: 2rem;
+    width: 2rem;
+    background-color: #008cba;
+    color: #f0f0f0;
+    margin-right: .5rem;
+    border: none;
+    box-shadow: .5px .5px 2px black;
+}
+
+.add-button{
+    height: 2rem;
+    width: 2rem;
+    background-color: #008cba;
+    color: #f0f0f0;
+    margin-right: .5rem;
+    border: none;
+    box-shadow: .5px .5px 2px black;
+}
+.cancel-button{
+    height: 2rem;
+    width: 2rem;
+    background-color: #c94c4c;
+    color: #f0f0f0;
+    border: none;
+    box-shadow: .5px .5px 2px black;
 }
 
